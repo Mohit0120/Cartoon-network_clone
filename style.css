@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+}
+
+#nav{
+    display: flex;
+    height: 145px;
+    width: 100%;
+    background-color:white;
+    align-items: center;
+
+}
+
+#logo{
+    padding-left: 34px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+#links{
+    text-transform: uppercase;
+    padding-left: 63px;
+    /* align-items: center; */
+
+}
+
+#links a{
+    text-decoration: none;
+    margin-right: 33px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+
+}
+#one{
+    border-bottom: 4px solid rgb(3, 150, 195);
+    padding-bottom: 3px;
+}
+
+#links a:hover{
+    border-bottom: 4px solid rgb(3, 150, 195);
+    padding-bottom: 3px;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    padding-left: 39PX;
+    padding-right: 39PX;
+    color: white;
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 900px;
+}
+
+#images{
+    height: 353px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+}
+
+.onee{
+    width: 32.90%;
+    height: 100%;
+    background-color: rgb(39, 39, 39);
+}
+
+#first{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04133345/CartoonNetwork_Ben10_462x386.jpg);
+    background-size: cover;
+}
+
+#two{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200714/CartoonNetwork_OKKO_462x386.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(20,20,20,0),rgba(0,0,0,0.068),rgba(0,0,0,0.836));
+
+}
+
+.onee h6{
+    padding-top: 304px;
+    padding-left: 12px;
+}
+
+.onee p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+.overlay h6{
+    padding-top: 304px;
+    padding-left: 12px;
+}
+
+.overlay p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.452);
+    opacity: 1;
+    
+}
+
+#image2{
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    background-color: black;
+
+}
+
+.on{
+    width: 24.50%;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(20,20,20,0),rgba(0,0,0,0.068),rgba(0,0,0,0.836));
+}
+
+.overlay1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.452);
+    opacity: 1;
+}
+
+
+#a{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200734/CartoonNetwork_StevenUniverse_462x386.jpg);
+    background-size: cover;
+}
+
+
+.on h6{
+    padding-left: 12px;
+    padding-top: 205px;
+}
+
+.on p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+.overlay1 h6{
+    padding-left: 12px;
+    padding-top: 205px;
+}
+
+.overlay1 p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+#b{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04142757/CartoonNetwork_WeBareBears_462x3861.jpg);
+    background-size: cover;
+}
+
+#c{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200805/CartoonNetwork_ThePowerPuffGirls_462x386.jpg);
+    background-size: cover;
+}
+
+#d{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200826/CartoonNetwork_TheRegularShow_462x386.jpg);
+    background-size: cover;
+}
+
+#image3{
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    background-color: black;
+
+}
+
+.o{
+    width: 24.50%;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgba(20,20,20,0),rgba(0,0,0,0.068),rgba(0,0,0,0.836));
+}
+
+.overlay2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.452);
+    opacity: 1;
+}
+
+.o h6{
+    padding-left: 12px;
+    padding-top: 205px;
+}
+
+.o p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+.overlay2 h6{
+    padding-left: 12px;
+    padding-top: 205px;
+}
+
+.overlay2 p{
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 12px;
+}
+
+#aa{
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200850/CartoonNetwork_AdventureTime_462x386.jpg);
+    background-size: cover;
+}
+
+#image4{
+    height: 260px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 60px;
+    /* background-color: red; */
+    
+}
+
+#left{
+    width: 455px;
+    height: 100%;
+    /* background-color: green; */
+    background-image: url(https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2019/03/13152421/24_7.jpg);
+    background-size: cover;
+    /* padding-left: 100px; */
+}
+
+#right{
+    height: 100%;
+    width: calc(100% - 455px);
+    /* background-color: greenyellow; */
+}
+
+#right h2{
+    padding-left: 30px;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+#right p{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+    line-height:27px;
+}
+
+#about{
+    padding-top: 58px;
+    min-height: 87px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#about h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    /* line-height: 38.4px; */
+    
+
+}
+
+#about p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28.8px;
+    padding-top: 5px;
+}
+
+#contact{
+    padding-top: 58px;
+    min-height: 87px;
+    width: 100%;
+    padding-bottom: 113px;
+}
+
+#contact h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    /* line-height: 38.4px; */
+    
+
+}
+
+#contact p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28.8px;
+    padding-top: 5px;
+}
+
+#links2{
+    height: 197px;
+    width: 100%;
+    background: #202020;
+    padding-left: 325px;
+    padding-top: 60px;
+
+}
+
+#links2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content: space-between;
+    padding-right: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 68px;
+    
+}
+
+#links2 a:hover{
+    color: rgb(2, 166, 214);
+    cursor: pointer;
+}
+
+#links2 p{
+    color: #808080;
+    font-size: 11.2px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 169px;
+}
+
+#logos{
+    height: 243px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+#logos h3{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-left: 600px;
+    color: rgb(202, 202, 202);
+}
+
+#il{
+    padding-top: 20px;
+    padding-left: 630px;
+}
+
+#logoo{
+    padding-left: 300px;
+    padding-top: 30px;
+    /* justify-content: space-between; */
+}
+
+#logoo .p{
+    padding-right: 90px;
+}
